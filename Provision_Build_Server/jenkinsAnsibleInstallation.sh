@@ -8,10 +8,8 @@ echo "Downloading Apache tomcat package from official website"
 sudo wget https://mirrors.estointernet.in/apache/tomcat/tomcat-9/v9.0.50/bin/apache-tomcat-9.0.50.tar.gz
 sudo tar -zxvf apache-tomcat-9.0.50.tar.gz
 sudo rm -rf apache-tomcat-9.0.50.tar.gz
-sudo chown ubuntu:ubuntu apache-tomcat-9.0.50
-sudo chown ubuntu:ubuntu apache-tomcat-9.0.50/*
-sudo chmod 755 apache-tomcat-9.0.50/
-sudo chmod 755 apache-tomcat-9.0.50/*
+sudo chown -R ubuntu:ubuntu apache-tomcat-9.0.50
+sudo chmod -R 755 apache-tomcat-9.0.50/
 sudo rm -rf /liveBuildServer/apache-tomcat-9.0.50/webapps/*
 cd /liveBuildServer/apache-tomcat-9.0.50/webapps/
 sudo wget https://get.jenkins.io/war/2.305/jenkins.war
