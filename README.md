@@ -1,9 +1,29 @@
 # ci_cd_server_infra_provisioner
 
 
-![image](https://user-images.githubusercontent.com/88427177/128387749-09e61d7e-221f-4b2e-ae63-1d55790c2eaf.png)
- 
+![image](https://user-images.githubusercontent.com/88427177/129034160-4f6b25e1-d9e9-4daa-838f-ce85a17048b5.png)
 
+ 
+ How to use this repository
+ 
+ Step-1 Get the files from this repository 
+ 
+ Step-2 Make sure the directory structure should be like below 
+ 
+ ![files](https://user-images.githubusercontent.com/88427177/129035180-56319fb3-7e56-4d60-8bb7-c44f8bbf6533.png)
+
+ 
+ Step-2 Setup a user in AWS with administrator apermissions 
+ 
+ Step-3 Install Packer 
+ 
+ Step-4 Install Terraform 
+ 
+ Step-5 Execute the ci_cd_infra_provisioner.sh to start the process.
+ 
+ 
+ 
+ 
 Packer script will create an AMI pre-installed with Jenkins and ansible 
 
 ![image](https://user-images.githubusercontent.com/88427177/128387781-fe01f631-ce33-46fb-9d8b-b9fce68e4e4a.png)
