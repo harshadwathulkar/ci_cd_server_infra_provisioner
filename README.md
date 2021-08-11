@@ -10,7 +10,7 @@
  
  Step-2 Make sure the directory structure should be like below 
  
- ![files](https://user-images.githubusercontent.com/88427177/129035180-56319fb3-7e56-4d60-8bb7-c44f8bbf6533.png)
+![image](https://user-images.githubusercontent.com/88427177/129046609-83aaf55c-3f99-425f-828c-0da76b6ee35e.png)
 
  
  Step-2 Setup a user in AWS with administrator apermissions 
